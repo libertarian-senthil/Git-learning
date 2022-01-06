@@ -15,8 +15,8 @@ def document()->None:
     for i in documentation:     # Printing the lines in the doocument. 
         print(i,end = " ")
 
-# version format: (v)year-month-version_number(type)
-__version__ = "v2022.1.1(dev-release)"
+# version format: (v)year-month-version_number
+__version__ = "v2022.1.1"
 
 try:
 
