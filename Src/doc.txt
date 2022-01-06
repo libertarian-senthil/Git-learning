@@ -1,0 +1,7 @@
+ Liberal Deletion Software(LDS)
+------------------------------
+The general options include:
+-h or --help            - To get the documentation of the LDS.
+-v or --version         - To get the current version of LDS.
+-d or --delete          - To delete an empty directory.
+-d [-f <filename>]      - To detele a particular file 
