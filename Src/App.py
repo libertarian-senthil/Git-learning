@@ -15,8 +15,8 @@ def document()->None:
     for i in documentation:     # Printing the lines in the doocument. 
         print(i,end = " ")
 
-# version format: year-month-version_number(type)
-__version__ = "2022.1.1(Pre-release)"
+# version format: (v)year-month-version_number(type)
+__version__ = "v2022.1.1(dev-release)"
 
 try:
 
@@ -28,7 +28,7 @@ try:
             os.remove(os.getcwd()+"\\"+cmd[3])
         elif cmd[2] == "e":
             extension = cmd[3]
-            
+
     elif cmd[1] in ["-v", "--version"]:     # For version 
         print("\nThe current version of LDS: ",__version__)
     
